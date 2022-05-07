@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:id="@+id/parentlayout_dashboard"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:elevation="10dp">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/img_icons"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="30dp"
+    android:src="@drawable/image"
+    android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="text"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="name"
+        android:textColor="@color/black"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_crd_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="170dp"/>
+    <TextView
+        android:id="@+id/tv_crd_relegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="relegion"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:id="@+id/tv_crd_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_crd_working_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="160dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_nationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="dob"
+        android:textColor="@color/black"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="155dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="142dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/img_shortlisted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star_border"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="155dp"/>
+
+    <ImageView
+        android:id="@+id/img_remove_shortlisted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shortlist"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="155dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_short_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="159dp"
+        android:text="ShortList"/>
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/roundedbutton"
+        android:visibility="visible"
+        android:textSize="8dp"
+        android:text="Remove"/>
+
+    <ImageView
+        android:id="@+id/img_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chat"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="155dp"/>
+
+    <TextView
+        android:id="@+id/tv_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="159dp"
+        android:text="Chat Now"/>
+
+    <ImageView
+        android:id="@+id/img_send_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check_circle"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="155dp"/>
+
+    <TextView
+        android:id="@+id/tv_send_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="159dp"
+        android:text="Send Interest"/>
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="195dp"
+        android:text="distance"/>
+</androidx.cardview.widget.CardView>

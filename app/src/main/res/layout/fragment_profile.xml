@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/top"
+    tools:context=".ProfileFragment">
+
+    <include layout="@layout/custom_toolbar_profile"
+        android:id="@+id/layout_profile"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/userimg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_profile"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/camera"
+        app:tint="@color/darkgrey"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="@id/image"
+        app:layout_constraintBottom_toBottomOf="@id/image"
+        />
+
+    <TextView
+        android:id="@+id/label_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Later"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/layout_profile"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/label_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="PAK-123456789"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/label_Name"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/label_Membership_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"
+        android:text="Membership-free"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/label_Id"
+        tools:ignore="MissingConstraints"/>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/progressBar"
+        android:progress="50"
+        app:layout_constraintTop_toBottomOf="@id/label_Membership_status"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        android:layout_column="1" />
+
+
+    <TextView
+        android:id="@+id/label_progess_bar_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"
+        android:text="Your Profile Score is 50%"
+        android:textColor="@color/accentColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        tools:ignore="MissingConstraints"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_view"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/label_progess_bar_status_text"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

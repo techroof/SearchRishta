@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083319532213",
+    "project_id": "searchrishta-cc25a",
+    "storage_bucket": "searchrishta-cc25a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083319532213:android:49da28776769c588219cfc",
+        "android_client_info": {
+          "package_name": "com.techroof.searchrishta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083319532213-mqgbkab9i5526c4a1uijmsshcbtt9g0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xIy8tx-2XdjneSOXA2DuTRnlDuQkeeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083319532213-mqgbkab9i5526c4a1uijmsshcbtt9g0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

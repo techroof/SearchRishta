@@ -1,0 +1,2 @@
+rootProject.name = "SearchRishta"
+include ':app'

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".UpgradeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/toolbar_upgrade"/>
+    <TextView
+        android:id="@+id/acc_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Package Details"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tool_bar"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/acc_details_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="190dp"
+        app:layout_constraintTop_toBottomOf="@id/acc_details_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verified Numbers"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+    <ImageView
+        android:id="@+id/user_email"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bell"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="190dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Unlimited Chats"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/textview2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+    <ImageView
+        android:id="@+id/user_phoneno"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="190dp"
+        android:src="@drawable/chat"
+        app:layout_constraintTop_toBottomOf="@id/user_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/user_phoneno"/>
+
+<TextView
+            android:id="@+id/packages_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Admin Details"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/textColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_1" />
+
+        <TextView
+            android:id="@+id/no_packages_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="You don't have any investment yet"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:textColor="@color/textColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/view_1"
+            app:layout_constraintTop_toBottomOf="@id/packages_text"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/admin_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toBottomOf="@+id/packages_text">
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Number"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_acccount_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank Name"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/textview4"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_acccount_number"
+            />
+
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Name"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/textview5"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_bank_name"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cr_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/admin_details">
+
+            <TextView
+                android:id="@+id/tv_upload_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on upload  to share your payment proof"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/upload_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/uploadimage"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_upload_image"/>
+
+
+            <Button
+                android:id="@+id/btn_submit_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share payment proof"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:textSize="12sp"
+                android:background="@drawable/roundedbutton"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/upload_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

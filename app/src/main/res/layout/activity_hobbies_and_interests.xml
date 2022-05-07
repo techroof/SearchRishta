@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile.HobbiesAndInterests">
+
+    <include layout="@layout/edit_profile_toolbar"
+        android:id="@+id/edit_profile_toolbar"/>
+
+    <TextView
+        android:id="@+id/label_Hobbies_and_interest_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your hobbies and interests from below"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        app:layout_constraintTop_toBottomOf="@id/edit_profile_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_hobbies_and_interests"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Hobbies and Interests"
+        app:layout_constraintTop_toBottomOf="@id/label_Hobbies_and_interest_details">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_music"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Favourite Music"
+        app:layout_constraintTop_toBottomOf="@id/et_hobbies_and_interests">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_sports"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Favourite Sports"
+        app:layout_constraintTop_toBottomOf="@id/et_music">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_food"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Favourite food"
+        app:layout_constraintTop_toBottomOf="@id/et_sports">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+   <!-- <Button
+        android:id="@+id/btn_update_hobbies_and_interests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update hobbies details"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="@null"
+        android:textAllCaps="false"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@id/et_food"/>-->
+
+
+
+
+    <TextView
+        android:id="@+id/label_Habits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your habits from below"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        app:layout_constraintTop_toBottomOf="@id/et_food"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_eating_habits"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Eating habits"
+        app:layout_constraintTop_toBottomOf="@id/label_Habits">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_drinking_habits"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Drinking habits"
+        app:layout_constraintTop_toBottomOf="@id/et_eating_habits">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_smoking_habits"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Smoking habits"
+        app:layout_constraintTop_toBottomOf="@id/et_drinking_habits">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_update_habits_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update above details"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="@null"
+        android:textAllCaps="false"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@id/et_smoking_habits"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile.EditBasicDetailsActivity">
+
+
+    <include layout="@layout/edit_profile_toolbar"
+        android:id="@+id/edit_profile_toolbar"/>
+
+    <TextView
+    android:id="@+id/label_Professional_details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Profile Details From Below"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="left"
+    app:layout_constraintTop_toBottomOf="@id/edit_profile_toolbar"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Profile Details From Below"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        app:layout_constraintTop_toBottomOf="@id/edit_profile_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Name"
+        app:layout_constraintTop_toBottomOf="@id/label_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_age"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Age"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_profile_created_for"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Profile Creator"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_age">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_gender"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Gender"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_profile_created_for">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_height"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Height"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_gender">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_marital_status"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Marital Status"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_height">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_mother_tongue"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Mother Tongue"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_marital_status">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_edit_physical_status"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Physical Status"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_mother_tongue">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="text|textCapWords" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_edit_profile_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update profile detail "
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/roundedbutton"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@id/et_edit_physical_status"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

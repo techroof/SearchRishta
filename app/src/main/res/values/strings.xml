@@ -1,0 +1,815 @@
+<resources>
+    <string name="app_name">SearchRishta</string>
+
+    <string-array name="profile_creator">
+
+        <item>Self</item>
+        <item>Parent</item>
+        <item>Sibling</item>
+        <item>Relative</item>
+        <item>Friend</item>
+
+    </string-array>
+
+    <string-array name="hobbiesAndInterest">
+
+        <item>Acting</item>
+        <item>Astronomy</item>
+        <item>Astrology</item>
+        <item>Art / handicraft</item>
+        <item>Collectibles</item>
+        <item>Cooking</item>
+        <item>Crosswords</item>
+        <item>Dancing</item>
+        <item>FilmMaking</item>
+        <item>Fishing</item>
+        <item>Gardening/landscaping</item>
+        <item>Graphology</item>
+        <item>Nature</item>
+        <item>Numerology</item>
+        <item>Painting</item>
+        <item>Palmistry</item>
+        <item>Pets</item>
+        <item>Photography</item>
+        <item>Playing musical instruments</item>
+        <item>Puzzles</item>
+        <item>Sports</item>
+
+    </string-array>
+
+    <string-array name="Music">
+
+        <item>Blues</item>
+        <item>Devotional</item>
+        <item>Disco</item>
+        <item>Film songs</item>
+        <item>Ghazals</item>
+        <item>Heavy metal</item>
+        <item>Hip-Hop</item>
+        <item>House music</item>
+        <item>i\'m not a music fan</item>
+        <item>i love all forms of music</item>
+        <item>indian classic</item>
+        <item>indipop</item>
+        <item>Instrumental - Indian</item>
+        <item>Instrumental - Western</item>
+        <item>Jazz</item>
+        <item>Latest film songs</item>
+        <item>Old film songs</item>
+        <item>Pop</item>
+        <item>Qawalis</item>
+        <item>Rap</item>
+        <item>Reggae</item>
+        <item>Sufi</item>
+        <item>Techno</item>
+        <item>Western classic</item>
+
+    </string-array>
+
+    <string-array name="Sports">
+
+        <item>Adventure sports</item>
+        <item>Aerobics</item>
+        <item>Badminton</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>pool</item>
+        <item>Bowling</item>
+        <item>Card games</item>
+        <item>Carrom</item>
+        <item>Chess</item>
+        <item>Cricket</item>
+        <item>Cycling</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Hockey</item>
+        <item>I prefer watching sports</item>
+        <item>I\'m not a sports person</item>
+        <item>Jogging/Walking</item>
+        <item>Martial Arts</item>
+        <item>Scrabble</item>
+        <item>Squash</item>
+        <item>Swimming/Water sports</item>
+        <item>Table-tennis</item>
+        <item>Volleyball</item>
+        <item>Weight lifting</item>
+        <item>Yoga/Meditation</item>
+
+    </string-array>
+
+
+    <string-array name="Food">
+
+        <item>Arabian</item>
+        <item>Bengali</item>
+        <item>Caribbean</item>
+        <item>Chinese</item>
+        <item>Continental</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Gujrati</item>
+        <item>I\'m a foodie</item>
+        <item>Italian</item>
+        <item>Konkan</item>
+        <item>Labanese</item>
+        <item>Mexican</item>
+        <item>Moghlai</item>
+        <item>Punjabi</item>
+        <item>Rajasthani</item>
+        <item>South Indian</item>
+        <item>Spanish</item>
+        <item>Srilankan</item>
+        <item>Sushi</item>
+        <item>Thai</item>
+        <item>Swimming/Water sports</item>
+        <item>Turkish</item>
+        <item>Vietnamese</item>
+
+    </string-array>
+    <string-array name="gender">
+
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="marital_status">
+
+        <item>Unmarried</item>
+        <item>Widower</item>
+        <item>Divorced</item>
+        <item>Separated</item>
+        <item>Married</item>
+
+    </string-array>
+
+    <string-array name="physical_status">
+
+        <item>Normal</item>
+        <item>Physically Challenged</item>
+        <item>Over Weight</item>
+        <item>Slim</item>
+
+
+    </string-array>
+
+    <string-array name="employed_in">
+
+        <item>Govt Sector</item>
+        <item>Private Sector</item>
+        <item>Own Business</item>
+
+
+    </string-array>
+
+    <string-array name="phone_number">
+
+        <item>(PK) +92</item>
+
+    </string-array>
+
+    <string-array name="mother_tongue">
+
+        <item>Urdu</item>
+        <item>Pushto</item>
+        <item>Punjabi</item>
+        <item>English</item>
+        <item>Others</item>
+
+
+    </string-array>
+
+    <string-array name="Relegion">
+
+        <item>Christian</item>
+        <item>Hindu</item>
+        <item>Muslim-Abbasi</item>
+        <item>Muslim-Brailvi</item>
+        <item>Muslim-Deobandi</item>
+        <item>Muslim-Others</item>
+        <item>Muslim-Shia</item>
+        <item>Muslim-Sunnis</item>
+        <item>Muslim-Ahle Hadith</item>
+        <item>Parsi</item>
+
+
+    </string-array>
+
+    <string-array name="RelegionInformation">
+
+        <item>Christian</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Parsi</item>
+
+
+    </string-array>
+
+
+    <string-array name="ClanIslam">
+
+        <item>Abbasi</item>
+        <item>Alvi</item>
+        <item>Ansari</item>
+        <item>Aheer</item>
+        <item>Arain</item>
+        <item>Awan </item>
+        <item>Baloch</item>
+        <item>Bhatti</item>
+        <item>Brahui</item>
+        <item>Butt</item>
+        <item>Chughtai</item>
+        <item>Chaudhry</item>
+        <item>Dar</item>
+        <item>Dogar</item>
+        <item>Ghakar</item>
+        <item>Gondal</item>
+        <item>Gujjar</item>
+        <item>Hashmi</item>
+        <item>Jatt</item>
+        <item>Kakay Zai</item>
+        <item>Kamboh</item>
+        <item>Khan Yousafzai</item>
+        <item>Khawaja</item>
+        <item>Khateek</item>
+        <item>Khattar</item>
+        <item>Khokkar</item>
+        <item>Maliar</item>
+        <item>Malik</item>
+        <item>Mehar</item>
+        <item>Meo</item>
+        <item>Mir</item>
+        <item>Mughal</item>
+        <item>Naqvi</item>
+        <item>Others</item>
+        <item>Pathan</item>
+        <item>Paracha</item>
+        <item>Pashtuns</item>
+        <item>Qureshi</item>
+        <item>Rajpoot</item>
+        <item>Rawns</item>
+        <item>Rizvi</item>
+        <item>Rehmanis</item>
+        <item>Sheikh</item>
+        <item>Sardar</item>
+        <item>Siddiqui</item>
+        <item>Siyaal</item>
+        <item>Syed</item>
+        <item>Syed Hashmi</item>
+        <item>Syed Kazmi</item>
+        <item>Syed Bukhari</item>
+        <item>Sunni Syed</item>
+        <item>Shia Syed</item>
+        <item>Tanoli Khan</item>
+        <item>Urdu Speaking</item>
+        <item>Zaidi</item>
+
+    </string-array>
+
+    <string-array name="sectIslam">
+
+        <item>Muslim-Abbasi</item>
+        <item>Muslim-Brailvi</item>
+        <item>Muslim-Deobandi</item>
+        <item>Muslim-Shia</item>
+        <item>Muslim-Sunnis</item>
+        <item>Muslim-Ahle Hadees</item>
+        <item>Muslim-Others</item>
+
+    </string-array>
+
+    <string-array name="ClanChristian">
+
+        <item>Catholic</item>
+        <item>Orthodox</item>
+        <item>Protestant</item>
+
+    </string-array>
+
+    <string-array name="ClanParsi">
+
+        <item>Irani</item>
+        <item>Parsi</item>
+        <item>Intercaste</item>
+
+    </string-array>
+
+    <string-array name="ClanHindu">
+
+        <item>Surya</item>
+        <item>Chandra</item>
+        <item>Rathore</item>
+
+    </string-array>
+
+    <string-array name="Education">
+
+        <item>ph.D.</item>
+        <item>Masters</item>
+        <item>Bachelors </item>
+        <item>Civil Service</item>
+        <item>Professional Certifications</item>
+        <item>Diploma</item>
+        <item>Higher Secondar/Secondary</item>
+        <item>Matric</item>
+        <item>Intermediate</item>
+        <item>MBBS</item>
+        <item>Engineering</item>
+        <item>Others</item>
+
+
+    </string-array>
+
+    <string-array name="RelegiousValues">
+
+        <item>Not Religious</item>
+        <item>Moderate</item>
+        <item>Religious </item>
+
+    </string-array>
+
+    <string-array name="Location">
+
+        <item>UAE</item>
+        <item>America</item>
+        <item>Germany </item>
+        <item>Pakistan</item>
+
+
+    </string-array>
+
+
+    <string-array name="Ethnicity">
+
+        <item>Punjabi</item>
+        <item>Sindhi</item>
+        <item>Balochi </item>
+        <item>Urdu</item>
+        <item>Pashtun</item>
+        <item>Kashmiri</item>
+        <item>Others</item>
+
+
+    </string-array>
+
+    <string-array name="Occupation">
+
+        <item>Student</item>
+        <item>Not working</item>
+        <item>Officer </item>
+        <item>Fashion Designer</item>
+        <item>Supervisor</item>
+        <item>Banking Service Professional</item>
+        <item>Teaching/Academician</item>
+        <item>Dietician/Nutritionist</item>
+        <item>Manager</item>
+        <item>CEO/President,Director,Chairman</item>
+        <item>Engineer-NonIt</item>
+        <item>Sportsperson</item>
+        <item>Software Professional</item>
+        <item>Administrative Professional</item>
+        <item>Hotel/Hospitatility</item>
+        <item>Web/Graphic Designer</item>
+        <item>Financial Accountant</item>
+        <item>Doctor</item>
+        <item>Data Scientist</item>
+        <item>Chartered Accountant</item>
+
+
+    </string-array>
+
+    <string-array name="IncomeRange">
+
+        <item>20-50k</item>
+        <item>51-70k</item>
+        <item>71-90k </item>
+        <item>91-110k</item>
+        <item>110-150k</item>
+        <item>150-200k</item>
+        <item>200k+</item>
+
+    </string-array>
+
+
+    <string-array name="RangeSliderValues">
+
+        <item>20</item>
+        <item>70</item>
+
+
+    </string-array>
+
+    <string-array name="countries">
+
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua  Deps</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item> Bosnia Herzegovina</item>
+        <item> Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Rep</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Congo {Democratic Rep}</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea-Bissau</item>
+        <item>Haiti</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland </item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Korea North</item>
+        <item>Korea South</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Myanmar</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>St Kitts  Nevis</item>
+        <item>St Lucia</item>
+        <item>Saint Vincent  the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome  Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+
+    </string-array>
+
+    //resident status
+
+    <string-array name="residentstatus">
+
+        <item>rental property</item>
+        <item>own property</item>
+    </string-array>
+
+    <string-array name="citizenship">
+
+        <item>American</item>
+        <item>British</item>
+        <item>European</item>
+        <item>Pakistani</item>
+        <item>Foreign</item>
+        <item>Local</item>
+
+    </string-array>
+
+    <string-array name="eating">
+
+        <item>Doesn\'t matter</item>
+        <item>Vegetarian</item>
+        <item>Non vegetarian</item>
+        <item>Halal food always</item>
+        <item>Halal food when i can</item>
+        <item>No Restrictions</item>
+
+
+    </string-array>
+
+    <string-array name="drinker">
+
+        <item>Drinker</item>
+        <item>Non-Drinker</item>
+
+
+    </string-array>
+
+    <string-array name="smoker">
+
+        <item>Smoker</item>
+        <item>Non-Smoker</item>
+
+
+    </string-array>
+
+    <string-array name="age">
+
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+
+
+    </string-array>
+
+    <string-array name="height">
+
+        <item>4-3</item>
+        <item>4-4</item>
+        <item>4-5</item>
+        <item>4-6</item>
+        <item>4-7</item>
+        <item>4-8</item>
+        <item>4-9</item>
+        <item>4-10</item>
+        <item>4-11</item>
+        <item>5-0</item>
+        <item>5-1</item>
+        <item>5-2</item>
+        <item>5-3</item>
+        <item>5-4</item>
+        <item>5-5</item>
+        <item>5-6</item>
+        <item>5-7</item>
+        <item>5-8</item>
+        <item>5-9</item>
+        <item>5-10</item>
+        <item>5-11</item>
+        <item>6-0</item>
+        <item>6-1</item>
+        <item>6-2</item>
+        <item>6-3</item>
+        <item>6-4</item>
+        <item>6-5</item>
+        <item>6-6</item>
+        <item>6-7</item>
+        <item>6-8</item>
+        <item>6-9</item>
+        <item>6-10</item>
+        <item>6-11</item>
+        <item>7-0</item>
+        <item>7-1</item>
+        <item>7-2</item>
+        <item>7-3</item>
+        <item>7-4</item>
+        <item>7-5</item>
+        <item>7-6</item>
+        <item>7-7</item>
+        <item>7-8</item>
+        <item>7-9</item>
+
+
+    </string-array>
+
+
+    <string-array name="FatherOccupation">
+
+        <item>Officer </item>
+        <item>Fashion Designer</item>
+        <item>Supervisor</item>
+        <item>Banking Service Professional</item>
+        <item>Teaching/Academician</item>
+        <item>Dietician/Nutritionist</item>
+        <item>Manager</item>
+        <item>CEO/President,Director,Chairman</item>
+        <item>Engineer-NonIt</item>
+        <item>Sportsperson</item>
+        <item>Software Professional</item>
+        <item>Administrative Professional</item>
+        <item>Hotel/Hospitatility</item>
+        <item>Web/Graphic Designer</item>
+        <item>Financial Accountant</item>
+        <item>Doctor</item>
+        <item>Data Scientist</item>
+        <item>Chartered Accountant</item>
+        <item>Retired</item>
+
+
+    </string-array>
+
+
+    <string-array name="MotherOccupation">
+
+
+        <item>HouseWife </item>
+        <item>Officer </item>
+        <item>Fashion Designer</item>
+        <item>Supervisor</item>
+        <item>Banking Service Professional</item>
+        <item>Teaching/Academician</item>
+        <item>Dietician/Nutritionist</item>
+        <item>Manager</item>
+        <item>CEO/President,Director,Chairman</item>
+        <item>Engineer-NonIt</item>
+        <item>Sportsperson</item>
+        <item>Software Professional</item>
+        <item>Administrative Professional</item>
+        <item>Hotel/Hospitatility</item>
+        <item>Web/Graphic Designer</item>
+        <item>Financial Accountant</item>
+        <item>Doctor</item>
+        <item>Data Scientist</item>
+        <item>Chartered Accountant</item>
+        <item>Retired</item>
+
+
+    </string-array>
+
+    <string-array name="FamilyOrigin">
+
+        <item>Foreign</item>
+        <item>Local Resident</item>
+
+    </string-array>
+
+
+    <string name="title_activity_register3">RegisterActivity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
